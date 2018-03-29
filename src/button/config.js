@@ -249,6 +249,37 @@ export const BUTTON_CONFIG : ButtonConfig = {
         allowPrimaryVertical:   false,
         allowPrimaryHorizontal: false
     },
+    [ BUTTON_LABEL.BAIDU ]: {
+        label:     `{ logo: ${ BUTTON_LOGO.BAIDU } }`,
+        logoLabel: `{ logo: ${ BUTTON_LOGO.BAIDU } }`,
+
+        defaultColor: BUTTON_COLOR.SILVER,
+
+        colors: [
+            BUTTON_COLOR.BLUE,
+            BUTTON_COLOR.SILVER,
+            BUTTON_COLOR.BLACK
+        ],
+
+        logoColors:  {
+            [ BUTTON_COLOR.BLUE ]:   BUTTON_LOGO_COLOR.WHITE,
+            [ BUTTON_COLOR.SILVER ]: BUTTON_LOGO_COLOR.BLUE,
+            [ BUTTON_COLOR.BLACK ]:  BUTTON_LOGO_COLOR.WHITE
+        },
+
+        secondaryColors: {
+            [ BUTTON_COLOR.GOLD ]:       BUTTON_COLOR.BLUE,
+            [ BUTTON_COLOR.BLUE ]:       BUTTON_COLOR.SILVER,
+            [ BUTTON_COLOR.SILVER ]:     BUTTON_COLOR.BLUE,
+            [ BUTTON_COLOR.BLACK ]:      BUTTON_COLOR.BLACK,
+            [ BUTTON_COLOR.DARKBLUE ]: BUTTON_COLOR.SILVER
+        },
+
+        allowPrimary: true,
+
+        allowPrimaryVertical:   false,
+        allowPrimaryHorizontal: true
+    },
 
     [ BUTTON_LABEL.ELV ]: {
 
@@ -441,6 +472,7 @@ export const FUNDING_TO_DEFAULT_LABEL = {
     [ FUNDING.CARD ]:      BUTTON_LABEL.CARD,
     [ FUNDING.CREDIT ]:    BUTTON_LABEL.CREDIT,
     [ FUNDING.IDEAL ]:     BUTTON_LABEL.IDEAL,
+    [ FUNDING.BAIDU ]:     BUTTON_LABEL.BAIDU,
     [ FUNDING.ELV ]:       BUTTON_LABEL.ELV,
     [ FUNDING.BANCONTACT]: BUTTON_LABEL.BANCONTACT,
     [ FUNDING.GIROPAY]:    BUTTON_LABEL.GIROPAY,
@@ -458,6 +490,7 @@ export const LABEL_TO_FUNDING = {
     [ BUTTON_LABEL.CREDIT ]:        FUNDING.CREDIT,
     [ BUTTON_LABEL.VENMO ]:         FUNDING.VENMO,
     [ BUTTON_LABEL.IDEAL ]:         FUNDING.IDEAL,
+    [ BUTTON_LABEL.BAIDU ]:         FUNDING.BAIDU,
     [ BUTTON_LABEL.BANCONTACT]:     FUNDING.BANCONTACT,
     [ BUTTON_LABEL.GIROPAY]:        FUNDING.GIROPAY,
     [ BUTTON_LABEL.GIROPAY]:        FUNDING.EPS,

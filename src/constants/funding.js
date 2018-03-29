@@ -6,6 +6,7 @@ export const FUNDING = {
     CREDIT:      'credit',
     CARD:        'card',
     IDEAL:       'ideal',
+    BAIDU:       'baidu',
     ELV:         'elv',
     BANCONTACT:  'bancontact',
     GIROPAY:     'giropay',

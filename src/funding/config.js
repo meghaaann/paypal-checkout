@@ -7,6 +7,7 @@ export const FUNDING_PRIORITY = [
     FUNDING.VENMO,
     FUNDING.CREDIT,
     FUNDING.IDEAL,
+    FUNDING.BAIDU,
     FUNDING.ELV,
     FUNDING.BANCONTACT,
     FUNDING.GIROPAY,
@@ -80,7 +81,16 @@ export const FUNDING_CONFIG = {
         allowHorizontal: true,
         allowVertical:   true
     },
+    [ FUNDING.BAIDU ]: {
+        allowedCountries: [
+            COUNTRY.US,
+            COUNTRY.CN,
+            COUNTRY.NL
+        ],
 
+        allowHorizontal: true,
+        allowVertical:   true
+    },
     [ FUNDING.ELV ]: {
         allowedCountries: [
             COUNTRY.DE,
