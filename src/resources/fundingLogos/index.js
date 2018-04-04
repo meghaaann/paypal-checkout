@@ -47,6 +47,7 @@ export let fundingLogos = {
     [ BUTTON_LOGO.IDEAL ]: {
         [ BUTTON_LOGO_COLOR.ANY ]: ideal
     },
+
     [ BUTTON_LOGO.BAIDU ]: {
         [ BUTTON_LOGO_COLOR.ANY ]: baidu
     },
