@@ -83,14 +83,13 @@ export const FUNDING_CONFIG = {
     },
     [ FUNDING.BAIDU ]: {
         allowedCountries: [
-            COUNTRY.US,
-            COUNTRY.CN,
-            COUNTRY.NL
+            COUNTRY.CN
         ],
 
         allowHorizontal: true,
         allowVertical:   true
     },
+    
     [ FUNDING.ELV ]: {
         allowedCountries: [
             COUNTRY.DE,

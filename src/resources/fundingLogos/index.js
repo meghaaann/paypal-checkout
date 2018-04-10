@@ -12,7 +12,8 @@ import credit_white from './credit_white.svg';
 import venmo_white  from './venmo_white.svg';
 import venmo_blue   from './venmo_blue.svg';
 import ideal        from './ideal.svg';
-import baidu        from './baidu.svg';
+import baidu        from './baidu_color.svg';
+import baidu_white  from './baidu_white.svg';
 import elv          from './elv.svg';
 import elv_white    from './elv_white.svg';
 import bancontact   from './bancontact.svg';
@@ -49,7 +50,8 @@ export let fundingLogos = {
     },
 
     [ BUTTON_LOGO.BAIDU ]: {
-        [ BUTTON_LOGO_COLOR.ANY ]: baidu
+        [ BUTTON_LOGO_COLOR.ANY ]: baidu,
+        [ BUTTON_LOGO_COLOR.WHITE ]: baidu_white
     },
 
     [ BUTTON_LOGO.ELV ]: {

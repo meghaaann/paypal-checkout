@@ -35,10 +35,5 @@ export function determineUrl(env : string, fundingSource : ?string, payment : st
         return config.altpayUrls[env];
     }
 
-    if (fundingSource === FUNDING.BAIDU) {
-        return config.checkoutUrls[env];
-    }
-
-
     return config.checkoutUrls[env];
 }
